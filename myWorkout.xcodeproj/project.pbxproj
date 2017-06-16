@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		48E0F0F21BEC59546D285942 /* Pods_myWorkout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89173ECD7458635664F84408 /* Pods_myWorkout.framework */; };
 		6C5373537866EC714ACA4A9B /* Pods_myWorkoutTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D6439B5C7897A854F444AF /* Pods_myWorkoutTests.framework */; };
+		A88FF95F1EF4A3A50094A9A1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A88FF95E1EF4A3A50094A9A1 /* GoogleService-Info.plist */; };
 		A8CBD93B1EED440800006773 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CBD93A1EED440800006773 /* AppDelegate.swift */; };
 		A8CBD93D1EED440800006773 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CBD93C1EED440800006773 /* ViewController.swift */; };
 		A8CBD9401EED440800006773 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8CBD93E1EED440800006773 /* Main.storyboard */; };
@@ -41,6 +42,7 @@
 		4C334286EE5CEC9546DE5137 /* Pods-myWorkout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myWorkout.release.xcconfig"; path = "Pods/Target Support Files/Pods-myWorkout/Pods-myWorkout.release.xcconfig"; sourceTree = "<group>"; };
 		60506137DEAD76D5F09D6C7B /* Pods-myWorkoutUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myWorkoutUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-myWorkoutUITests/Pods-myWorkoutUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		89173ECD7458635664F84408 /* Pods_myWorkout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myWorkout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A88FF95E1EF4A3A50094A9A1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A8CBD9371EED440800006773 /* myWorkout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myWorkout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8CBD93A1EED440800006773 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8CBD93C1EED440800006773 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 				A8CBD9411EED440800006773 /* Assets.xcassets */,
 				A8CBD9431EED440800006773 /* LaunchScreen.storyboard */,
 				A8CBD9461EED440800006773 /* Info.plist */,
+				A88FF95E1EF4A3A50094A9A1 /* GoogleService-Info.plist */,
 			);
 			path = myWorkout;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8CBD9451EED440800006773 /* LaunchScreen.storyboard in Resources */,
+				A88FF95F1EF4A3A50094A9A1 /* GoogleService-Info.plist in Resources */,
 				A8CBD9421EED440800006773 /* Assets.xcassets in Resources */,
 				A8CBD9401EED440800006773 /* Main.storyboard in Resources */,
 			);
@@ -726,6 +730,7 @@
 				A8CBD9611EED440800006773 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A8CBD9621EED440800006773 /* Build configuration list for PBXNativeTarget "myWorkoutTests" */ = {
 			isa = XCConfigurationList;
@@ -734,6 +739,7 @@
 				A8CBD9641EED440800006773 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A8CBD9651EED440800006773 /* Build configuration list for PBXNativeTarget "myWorkoutUITests" */ = {
 			isa = XCConfigurationList;
@@ -742,6 +748,7 @@
 				A8CBD9671EED440800006773 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

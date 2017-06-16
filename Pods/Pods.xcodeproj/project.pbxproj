@@ -7,61 +7,93 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		16E2E76659A669857348D535C12D78E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		1EB9FA374FD265D03546AA0796EEE981 /* Pods-myWorkoutUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 43C94F971578C3AB66B5BA503D79B275 /* Pods-myWorkoutUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		422800AFE213236326C159DFF07C26C1 /* Pods-myWorkout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC8F42E967568A403F0C1735E8073C9A /* Pods-myWorkout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		541C5362289CC44D4F067D097F231250 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = F6D7B16721E888846204CBA21B058064 /* GTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5B016DCD09F503FB75749AFA8B7E9709 /* Pods-myWorkoutUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 812C760408083C578ECC7E15434713A5 /* Pods-myWorkoutUITests-dummy.m */; };
-		5B39F26079CD857E58C6C6C2E1F3CD7D /* Pods-myWorkout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB31133A99AB68169AB043AFC16B36E /* Pods-myWorkout-dummy.m */; };
 		5F8D84975AE6D6CA3E5B233DD76B4AE5 /* Pods-myWorkoutTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 62026C450C7B8A028F8BC2E2D528B289 /* Pods-myWorkoutTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7D9855B1990D994966C058C09BE679E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		81E4B6988FF26F9249B79C6C8CC667B4 /* GoogleToolboxForMac-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BF6E1E29787F5CB39A8070C28D96016 /* GoogleToolboxForMac-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		912DE1E08092214CBB6C2D7B04009A18 /* Pods-myWorkout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC8F42E967568A403F0C1735E8073C9A /* Pods-myWorkout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93D51748565CFEB9490FBA7DA993C5C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		9C960A846CB347FCFADCF320779F0C05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		DBFECCB0BBE3F11CC41A3C1A8C4879D3 /* GTMNSData+zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = AFCDD21E7F88A39173EDAA6772C0A4F5 /* GTMNSData+zlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD4B404548924BD582EC4D9F38F375E4 /* Pods-myWorkout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB31133A99AB68169AB043AFC16B36E /* Pods-myWorkout-dummy.m */; };
 		E9AFB7F51A77D2CA98AD87B740F2ED4C /* Pods-myWorkoutTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA332084D3EEF0306A4001CC64876B0 /* Pods-myWorkoutTests-dummy.m */; };
+		F7D889906DECB078EAAECB9D4A320E9C /* GTMNSData+zlib.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C2DE2C83F22D19F1BCBF830F013496 /* GTMNSData+zlib.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FAC3F3CAABA60EF76069431C5BB5032A /* GoogleToolboxForMac-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A7291714F1AFB288EBD6B7AD923825 /* GoogleToolboxForMac-dummy.m */; };
 		FACA9FEE17C859DB6D4A3FBA114F98FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B972A336CFCA616166BB6766319810B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00103D6C821BE85971C563025527BA5D;
+			remoteInfo = GoogleToolboxForMac;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		03A6EEB8AB220A6074F1F904D8378BE6 /* Pods-myWorkoutTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-myWorkoutTests-resources.sh"; sourceTree = "<group>"; };
 		073CF3424C7226621F5D7810494D7ADD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16D319D663A81E59AA3637D0970BB2A0 /* FirebaseNanoPB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseNanoPB.framework; path = Frameworks/FirebaseNanoPB.framework; sourceTree = "<group>"; };
 		1B550EA339BC43324891500140431523 /* Pods-myWorkoutUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-myWorkoutUITests-frameworks.sh"; sourceTree = "<group>"; };
+		1BF6E1E29787F5CB39A8070C28D96016 /* GoogleToolboxForMac-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-umbrella.h"; sourceTree = "<group>"; };
+		20FCB9F370E6E0DF2829A71D3AC2637D /* GoogleToolboxForMac.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GoogleToolboxForMac.modulemap; sourceTree = "<group>"; };
 		27E9886C08570F9A6551AEDB1A60D572 /* Pods-myWorkoutTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-myWorkoutTests.release.xcconfig"; sourceTree = "<group>"; };
+		2997BF7FE42A93EEBCA4ACA8B4B238B3 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleToolboxForMac.framework; path = GoogleToolboxForMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3130DF16BB289309A995A036EE4D8755 /* Pods_myWorkoutTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_myWorkoutTests.framework; path = "Pods-myWorkoutTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32B78CCBFADCA038AD0AC4FF07B4FA69 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38B0EE6D5A25BFB445C698BCB140E2A7 /* Pods-myWorkout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-myWorkout.modulemap"; sourceTree = "<group>"; };
-		3E3AC3B94EBA57E34B78AC52ED08B7EB /* Pods_myWorkoutTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_myWorkoutTests.framework; path = "Pods-myWorkoutTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		43C94F971578C3AB66B5BA503D79B275 /* Pods-myWorkoutUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-myWorkoutUITests-umbrella.h"; sourceTree = "<group>"; };
 		4DB31133A99AB68169AB043AFC16B36E /* Pods-myWorkout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-myWorkout-dummy.m"; sourceTree = "<group>"; };
 		4FCAE343D3BBAAB3290DF363BE18DD5C /* Pods-myWorkout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-myWorkout.debug.xcconfig"; sourceTree = "<group>"; };
 		5B99C22F2F92F8AB5333BEB9D98FFD60 /* Pods-myWorkout-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-myWorkout-frameworks.sh"; sourceTree = "<group>"; };
 		5BA332084D3EEF0306A4001CC64876B0 /* Pods-myWorkoutTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-myWorkoutTests-dummy.m"; sourceTree = "<group>"; };
 		62026C450C7B8A028F8BC2E2D528B289 /* Pods-myWorkoutTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-myWorkoutTests-umbrella.h"; sourceTree = "<group>"; };
-		628A2DE738F4BD6EB50EA67872DE0C16 /* Pods_myWorkoutUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_myWorkoutUITests.framework; path = "Pods-myWorkoutUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		66854151611547DF7B67F2825D8FEF50 /* Pods-myWorkoutTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-myWorkoutTests-frameworks.sh"; sourceTree = "<group>"; };
+		67F587195F6417977EFD1ABC403CE267 /* Pods_myWorkout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_myWorkout.framework; path = "Pods-myWorkout.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EF46CC5A5A08CE775F7D46E39FF3213 /* Pods-myWorkoutUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-myWorkoutUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		715619DD1B37EC6F7A0DF3F7CFAB4F05 /* Pods-myWorkout-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-myWorkout-resources.sh"; sourceTree = "<group>"; };
+		764549E46C95F28A471B5B598BEEA3A9 /* Pods_myWorkoutUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_myWorkoutUITests.framework; path = "Pods-myWorkoutUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DCFB3793E89E4DD1BEF67819522A36E /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = Frameworks/FirebaseCore.framework; sourceTree = "<group>"; };
 		812C760408083C578ECC7E15434713A5 /* Pods-myWorkoutUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-myWorkoutUITests-dummy.m"; sourceTree = "<group>"; };
+		89776470BE73F249FD8EEF3C350A54FC /* GoogleToolboxForMac.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleToolboxForMac.xcconfig; sourceTree = "<group>"; };
+		92C2DE2C83F22D19F1BCBF830F013496 /* GTMNSData+zlib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSData+zlib.m"; path = "Foundation/GTMNSData+zlib.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		953C20352898AF88533A384A506365F0 /* Pods-myWorkoutTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-myWorkoutTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		964564A0EC77C62B2B09B600E6CC13F9 /* Pods-myWorkoutUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-myWorkoutUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		982C47675E0924A48DF4F9D326BE3114 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Core/Sources/Firebase.h; sourceTree = "<group>"; };
 		9907FE4D7AE27749919EB32CF8010693 /* Pods-myWorkoutUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-myWorkoutUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A0155B262CB610DA4E480E6346A2634E /* Pods-myWorkoutUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-myWorkoutUITests-resources.sh"; sourceTree = "<group>"; };
+		A21B846AC67CF7696C36BE2F0F0D83AB /* GoogleToolboxForMac-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-prefix.pch"; sourceTree = "<group>"; };
 		A518F17407C7927605ACBDC71768B2A6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFCDD21E7F88A39173EDAA6772C0A4F5 /* GTMNSData+zlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSData+zlib.h"; path = "Foundation/GTMNSData+zlib.h"; sourceTree = "<group>"; };
+		B2A7291714F1AFB288EBD6B7AD923825 /* GoogleToolboxForMac-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GoogleToolboxForMac-dummy.m"; sourceTree = "<group>"; };
+		B4D4970E364A27F60CEEF19E5869D8F2 /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCoreDiagnostics.framework; path = Frameworks/FirebaseCoreDiagnostics.framework; sourceTree = "<group>"; };
 		B56921221DAF82B4703FF5A3BD291C64 /* Pods-myWorkoutTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-myWorkoutTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B5AAF3185DD0AC96995CEE50064BEC0A /* Pods_myWorkout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_myWorkout.framework; path = "Pods-myWorkout.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8F144404B3566894F0CEC94B71B0505 /* Pods-myWorkout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-myWorkout.release.xcconfig"; sourceTree = "<group>"; };
+		C7141B9842B6353055EFAB5E4B503153 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB1193B685C07858074BCD14D8E009F3 /* Pods-myWorkoutUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-myWorkoutUITests.modulemap"; sourceTree = "<group>"; };
 		CD7DFE9563C8EA8EB7676E0A52AA1523 /* Pods-myWorkoutTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-myWorkoutTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CEBC0FB6240436350B28388776F44CA2 /* Pods-myWorkout-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-myWorkout-acknowledgements.plist"; sourceTree = "<group>"; };
 		D25252BA0A1CF56485A7B9A02A6A307D /* Pods-myWorkoutTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-myWorkoutTests.modulemap"; sourceTree = "<group>"; };
+		DB970382F8889D98D165BDC71FD5F657 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		E1AFD0DFA3094C10F9F3F60E4C8F935E /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
 		E706611FAE7891A88340F4C3EC55E01D /* Pods-myWorkoutUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-myWorkoutUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F6D7B16721E888846204CBA21B058064 /* GTMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
 		FC8E2C5B8D1AB4DA7A18AC6492BD3ABA /* Pods-myWorkout-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-myWorkout-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FC8F42E967568A403F0C1735E8073C9A /* Pods-myWorkout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-myWorkout-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		090AD0C73F3E7210C67C6D2F30D5A005 /* Frameworks */ = {
+		5B7DF6127143F1714B4B9A2D073E05AD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16E2E76659A669857348D535C12D78E1 /* Foundation.framework in Frameworks */,
+				9C960A846CB347FCFADCF320779F0C05 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,9 +113,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F9BC43EEAF05BCB201B3D28C244AA7E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93D51748565CFEB9490FBA7DA993C5C0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00B9DD195B2EB39875CE4F9DB0CA2B46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1AFD0DFA3094C10F9F3F60E4C8F935E /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0F661C3C91B498281B0DD65BA7511AF1 /* Defines */ = {
+			isa = PBXGroup;
+			children = (
+				F6D7B16721E888846204CBA21B058064 /* GTMDefines.h */,
+			);
+			name = Defines;
+			sourceTree = "<group>";
+		};
 		14020BE706521D183019E52ABFDB7910 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +148,46 @@
 				FFB01F729732887898119A4786E6F682 /* Pods-myWorkoutUITests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1902584E8A324636B983CA3D69528EAC /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				982C47675E0924A48DF4F9D326BE3114 /* Firebase.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		1BB83A55EE4F26A09FDEB7D8C4EFE9D4 /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				00B9DD195B2EB39875CE4F9DB0CA2B46 /* Frameworks */,
+			);
+			name = FirebaseAnalytics;
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		1EE6C40DEAB56583720DC8110049EBAE /* GoogleToolboxForMac */ = {
+			isa = PBXGroup;
+			children = (
+				0F661C3C91B498281B0DD65BA7511AF1 /* Defines */,
+				993CE1B8349B2BD154287EDDE86393AF /* NSData+zlib */,
+				DD3A40A5414B21FDD8FC8F3258B79CED /* Support Files */,
+			);
+			name = GoogleToolboxForMac;
+			path = GoogleToolboxForMac;
+			sourceTree = "<group>";
+		};
+		2284E6854AEBDD17F420B24354609F96 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				43C8441995161C3CDF44AADF5762D23F /* Firebase */,
+				1BB83A55EE4F26A09FDEB7D8C4EFE9D4 /* FirebaseAnalytics */,
+				575F821D6CB8FC8C293759C130C977D8 /* FirebaseCore */,
+				E87A63BCF37F31D242208A3C2B333B8B /* FirebaseInstanceID */,
+				1EE6C40DEAB56583720DC8110049EBAE /* GoogleToolboxForMac */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		3F8C0DA376A0C36336B3F4D64BA243BA /* Pods-myWorkoutTests */ = {
@@ -110,6 +206,24 @@
 			);
 			name = "Pods-myWorkoutTests";
 			path = "Target Support Files/Pods-myWorkoutTests";
+			sourceTree = "<group>";
+		};
+		43C8441995161C3CDF44AADF5762D23F /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				1902584E8A324636B983CA3D69528EAC /* Core */,
+			);
+			name = Firebase;
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		575F821D6CB8FC8C293759C130C977D8 /* FirebaseCore */ = {
+			isa = PBXGroup;
+			children = (
+				E6C72B891F2790C95D9584F2F81A8F90 /* Frameworks */,
+			);
+			name = FirebaseCore;
+			path = FirebaseCore;
 			sourceTree = "<group>";
 		};
 		5849DC0C67EE79EDA210821705BB46D0 /* Pods-myWorkout */ = {
@@ -135,9 +249,38 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				CED3C97B49E537B238493352C6B3713B /* Products */,
+				2284E6854AEBDD17F420B24354609F96 /* Pods */,
+				B3C1FD6EA743788587438F3DAE8CB070 /* Products */,
 				14020BE706521D183019E52ABFDB7910 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		993CE1B8349B2BD154287EDDE86393AF /* NSData+zlib */ = {
+			isa = PBXGroup;
+			children = (
+				AFCDD21E7F88A39173EDAA6772C0A4F5 /* GTMNSData+zlib.h */,
+				92C2DE2C83F22D19F1BCBF830F013496 /* GTMNSData+zlib.m */,
+			);
+			name = "NSData+zlib";
+			sourceTree = "<group>";
+		};
+		A74D88AB047B2B5C4DE5A5AA644ADCAB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB970382F8889D98D165BDC71FD5F657 /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3C1FD6EA743788587438F3DAE8CB070 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2997BF7FE42A93EEBCA4ACA8B4B238B3 /* GoogleToolboxForMac.framework */,
+				67F587195F6417977EFD1ABC403CE267 /* Pods_myWorkout.framework */,
+				3130DF16BB289309A995A036EE4D8755 /* Pods_myWorkoutTests.framework */,
+				764549E46C95F28A471B5B598BEEA3A9 /* Pods_myWorkoutUITests.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -148,22 +291,45 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CED3C97B49E537B238493352C6B3713B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B5AAF3185DD0AC96995CEE50064BEC0A /* Pods_myWorkout.framework */,
-				3E3AC3B94EBA57E34B78AC52ED08B7EB /* Pods_myWorkoutTests.framework */,
-				628A2DE738F4BD6EB50EA67872DE0C16 /* Pods_myWorkoutUITests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		DD3A40A5414B21FDD8FC8F3258B79CED /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				20FCB9F370E6E0DF2829A71D3AC2637D /* GoogleToolboxForMac.modulemap */,
+				89776470BE73F249FD8EEF3C350A54FC /* GoogleToolboxForMac.xcconfig */,
+				B2A7291714F1AFB288EBD6B7AD923825 /* GoogleToolboxForMac-dummy.m */,
+				A21B846AC67CF7696C36BE2F0F0D83AB /* GoogleToolboxForMac-prefix.pch */,
+				1BF6E1E29787F5CB39A8070C28D96016 /* GoogleToolboxForMac-umbrella.h */,
+				C7141B9842B6353055EFAB5E4B503153 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleToolboxForMac";
+			sourceTree = "<group>";
+		};
+		E6C72B891F2790C95D9584F2F81A8F90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DCFB3793E89E4DD1BEF67819522A36E /* FirebaseCore.framework */,
+				B4D4970E364A27F60CEEF19E5869D8F2 /* FirebaseCoreDiagnostics.framework */,
+				16D319D663A81E59AA3637D0970BB2A0 /* FirebaseNanoPB.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E87A63BCF37F31D242208A3C2B333B8B /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				A74D88AB047B2B5C4DE5A5AA644ADCAB /* Frameworks */,
+			);
+			name = FirebaseInstanceID;
+			path = FirebaseInstanceID;
 			sourceTree = "<group>";
 		};
 		FFB01F729732887898119A4786E6F682 /* Pods-myWorkoutUITests */ = {
@@ -195,14 +361,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1221504A997EA4E89D846DF0EE658EE4 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				422800AFE213236326C159DFF07C26C1 /* Pods-myWorkout-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		1EC2F3F51284A70ED09AF2187B6A2EA5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -211,9 +369,44 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AF1AE449AA7931F2373DEE18E2702FA5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				912DE1E08092214CBB6C2D7B04009A18 /* Pods-myWorkout-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA600FDC48ED17BA03DA2D85D4EDA97 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E4B6988FF26F9249B79C6C8CC667B4 /* GoogleToolboxForMac-umbrella.h in Headers */,
+				541C5362289CC44D4F067D097F231250 /* GTMDefines.h in Headers */,
+				DBFECCB0BBE3F11CC41A3C1A8C4879D3 /* GTMNSData+zlib.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C43D9CA5106C6CCEF973B7EDF833947B /* Build configuration list for PBXNativeTarget "GoogleToolboxForMac" */;
+			buildPhases = (
+				63D7DA997053F6B5D01DE8CB5817CB51 /* Sources */,
+				F9BC43EEAF05BCB201B3D28C244AA7E1 /* Frameworks */,
+				FDA600FDC48ED17BA03DA2D85D4EDA97 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleToolboxForMac;
+			productName = GoogleToolboxForMac;
+			productReference = 2997BF7FE42A93EEBCA4ACA8B4B238B3 /* GoogleToolboxForMac.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		A8F388E05D839425EBC5551A9BFFEB7D /* Pods-myWorkoutUITests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F89A81A3D4E3F74002FFA3B39637DE4F /* Build configuration list for PBXNativeTarget "Pods-myWorkoutUITests" */;
@@ -228,24 +421,25 @@
 			);
 			name = "Pods-myWorkoutUITests";
 			productName = "Pods-myWorkoutUITests";
-			productReference = 628A2DE738F4BD6EB50EA67872DE0C16 /* Pods_myWorkoutUITests.framework */;
+			productReference = 764549E46C95F28A471B5B598BEEA3A9 /* Pods_myWorkoutUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B120DE5D9A3BAA8AFEE4BBB8B275F095 /* Pods-myWorkout */ = {
+		A932C95BD9772E9C51B820B4B6E2E39D /* Pods-myWorkout */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B0C1AD9C5FFA33B06CBE5472FB0AD9A3 /* Build configuration list for PBXNativeTarget "Pods-myWorkout" */;
+			buildConfigurationList = 81312E517D40A7C8F513AD6319A1D182 /* Build configuration list for PBXNativeTarget "Pods-myWorkout" */;
 			buildPhases = (
-				9EA52CB9DBBEEFE69D04408597D66187 /* Sources */,
-				090AD0C73F3E7210C67C6D2F30D5A005 /* Frameworks */,
-				1221504A997EA4E89D846DF0EE658EE4 /* Headers */,
+				A897A2EA4666778A5BE46F24E7B3BD0B /* Sources */,
+				5B7DF6127143F1714B4B9A2D073E05AD /* Frameworks */,
+				AF1AE449AA7931F2373DEE18E2702FA5 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				6D7ED0161871A0B97CA3A830D8D92BBD /* PBXTargetDependency */,
 			);
 			name = "Pods-myWorkout";
 			productName = "Pods-myWorkout";
-			productReference = B5AAF3185DD0AC96995CEE50064BEC0A /* Pods_myWorkout.framework */;
+			productReference = 67F587195F6417977EFD1ABC403CE267 /* Pods_myWorkout.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		BBBF5145DF077BCDEF2BB04E62F56651 /* Pods-myWorkoutTests */ = {
@@ -262,7 +456,7 @@
 			);
 			name = "Pods-myWorkoutTests";
 			productName = "Pods-myWorkoutTests";
-			productReference = 3E3AC3B94EBA57E34B78AC52ED08B7EB /* Pods_myWorkoutTests.framework */;
+			productReference = 3130DF16BB289309A995A036EE4D8755 /* Pods_myWorkoutTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -282,11 +476,12 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = CED3C97B49E537B238493352C6B3713B /* Products */;
+			productRefGroup = B3C1FD6EA743788587438F3DAE8CB070 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B120DE5D9A3BAA8AFEE4BBB8B275F095 /* Pods-myWorkout */,
+				00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */,
+				A932C95BD9772E9C51B820B4B6E2E39D /* Pods-myWorkout */,
 				BBBF5145DF077BCDEF2BB04E62F56651 /* Pods-myWorkoutTests */,
 				A8F388E05D839425EBC5551A9BFFEB7D /* Pods-myWorkoutUITests */,
 			);
@@ -302,11 +497,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9EA52CB9DBBEEFE69D04408597D66187 /* Sources */ = {
+		63D7DA997053F6B5D01DE8CB5817CB51 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B39F26079CD857E58C6C6C2E1F3CD7D /* Pods-myWorkout-dummy.m in Sources */,
+				FAC3F3CAABA60EF76069431C5BB5032A /* GoogleToolboxForMac-dummy.m in Sources */,
+				F7D889906DECB078EAAECB9D4A320E9C /* GTMNSData+zlib.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,7 +514,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A897A2EA4666778A5BE46F24E7B3BD0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD4B404548924BD582EC4D9F38F375E4 /* Pods-myWorkout-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D7ED0161871A0B97CA3A830D8D92BBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleToolboxForMac;
+			target = 00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */;
+			targetProxy = B972A336CFCA616166BB6766319810B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		0239CF4690680EACE8CA98081FFC0316 /* Release */ = {
@@ -351,6 +564,39 @@
 				PRODUCT_NAME = Pods_myWorkoutTests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1D30AB27679606AB534A729974B3E7DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89776470BE73F249FD8EEF3C350A54FC /* GoogleToolboxForMac.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleToolboxForMac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GoogleToolboxForMac;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -441,7 +687,7 @@
 			};
 			name = Debug;
 		};
-		784E71464D373610F97964F667A26BB9 /* Debug */ = {
+		7108D938D38108AAC1D2F5D9B710AE52 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4FCAE343D3BBAAB3290DF363BE18DD5C /* Pods-myWorkout.debug.xcconfig */;
 			buildSettings = {
@@ -477,7 +723,7 @@
 			};
 			name = Debug;
 		};
-		9D39A07EE94B69DC143D84CCA2F129EA /* Release */ = {
+		831CD84C7826118E8D943EC908DBD0E5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B8F144404B3566894F0CEC94B71B0505 /* Pods-myWorkout.release.xcconfig */;
 			buildSettings = {
@@ -593,6 +839,39 @@
 			};
 			name = Release;
 		};
+		C126BEED6939CA2C1E08284B2DF001E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89776470BE73F249FD8EEF3C350A54FC /* GoogleToolboxForMac.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleToolboxForMac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GoogleToolboxForMac;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		F5B5DD893EBEC815ECDCB6C941FBF944 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CD7DFE9563C8EA8EB7676E0A52AA1523 /* Pods-myWorkoutTests.debug.xcconfig */;
@@ -641,6 +920,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		81312E517D40A7C8F513AD6319A1D182 /* Build configuration list for PBXNativeTarget "Pods-myWorkout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7108D938D38108AAC1D2F5D9B710AE52 /* Debug */,
+				831CD84C7826118E8D943EC908DBD0E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		9EFA290F32F778C375ACAF8B24B1EA73 /* Build configuration list for PBXNativeTarget "Pods-myWorkoutTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -650,11 +938,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B0C1AD9C5FFA33B06CBE5472FB0AD9A3 /* Build configuration list for PBXNativeTarget "Pods-myWorkout" */ = {
+		C43D9CA5106C6CCEF973B7EDF833947B /* Build configuration list for PBXNativeTarget "GoogleToolboxForMac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				784E71464D373610F97964F667A26BB9 /* Debug */,
-				9D39A07EE94B69DC143D84CCA2F129EA /* Release */,
+				C126BEED6939CA2C1E08284B2DF001E0 /* Debug */,
+				1D30AB27679606AB534A729974B3E7DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
